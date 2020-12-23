@@ -1,0 +1,142 @@
+.content-container {
+    flex-grow: 1;
+    padding: 55px 0 35px 0;
+    height: 1319px;
+    background-color: #ffffff;
+}
+
+.about-container {
+    margin: 0 25px 0 55px;
+}
+
+.about-container h2 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.about-container h1 {
+    font-size: 45px;
+    line-height: 89px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.about-container p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #595959;
+}
+
+.projecs-container {
+    margin: 50px 25px 0 55px;
+}
+
+.projecs-container li {
+    margin: 0 0px 3px 15px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.projecs-container a {
+    margin-left: 5px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #595959;
+    text-decoration: none;
+}
+
+.projecs-container span {
+    font-weight: 400;
+    color: #595959;
+}
+
+.projecs-container span b {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.experience-container {
+    margin: 50px 25px 0 55px;
+}
+
+.work-place-container {
+    margin-top: 15px;
+}
+
+.work-place-container h4 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.work-place-container h4 ~ span {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #a8a8a8;
+}
+
+.work-place-container h4 span {
+    margin-left: 4px;
+    color: #ff6b08;
+}
+
+.work-place-container li {
+    margin: 0 0px 3px 15px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #595959;
+}
+
+.education-container {
+    margin: 50px 25px 0 55px;
+}
+
+.education-container h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #ff6b08;
+}
+
+.education-container h5 {
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.education-container span {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #a8a8a8
+}
+
+
+

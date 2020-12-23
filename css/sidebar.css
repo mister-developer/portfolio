@@ -1,0 +1,90 @@
+.sidebar-container {
+    width: 370px;
+    height: 1319px;
+    background-color: #1e2939;
+}
+
+.sidebar-img {
+    margin-top: 35px;
+    width: 370px;
+    height: 354px;
+    background-color: #f5f7fa;
+}
+
+.contacts-letter {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.contacts-phone {
+    opacity: 0.5;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contacts-mail {
+    opacity: 0.5;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.title {
+    font-size: 22px;
+    margin-bottom: 25px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.skills-list {
+    padding-left: 20px;
+}
+
+.skill-title {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.skill-mark {
+    color: #ff6b08;
+}
+
+.soft-skills-container {
+    margin-top: 30px;
+    padding: 0 20px 0 40px;
+}
+
+.contacts-container {
+    margin-top: 55px;
+    padding: 0 20px 0 40px;
+}
+
+.tech-skills-container {
+    margin-top: 30px;
+    padding: 0 20px 0 40px;
+}
+
+
+.knowledgeable-in-container {
+    margin-top: 30px;
+    padding: 0 20px 0 40px;
+}
+
+.studying-container {
+    margin-top: 30px;
+    padding: 0 20px 0 40px;
+}
