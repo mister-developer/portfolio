@@ -55,6 +55,11 @@
     text-decoration: none;
 }
 
+.projecs-container a:hover {
+    color: #1341B4;
+    border-bottom: 2px solid #1341B4;
+}
+
 .projecs-container span {
     font-weight: 400;
     color: #595959;
