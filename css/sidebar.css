@@ -1,6 +1,6 @@
 .sidebar-container {
     width: 370px;
-    height: 1319px;
+    height: 1500px;
     background-color: #1e2939;
 }
 
@@ -9,6 +9,39 @@
     width: 370px;
     height: 354px;
     background-color: #f5f7fa;
+}
+
+.sidebar-img-list {
+    display: flex;
+    margin: 10px 5px 0 5px;
+}
+
+.sidebar-img-list ul {
+    position: relative;
+}
+
+.sidebar-img-list li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.sidebar-img-list a {
+    display: inline-block;
+    padding: 3px;
+    margin: 2px;
+}
+
+.sidebar-img-list img {
+    width: 90px;
+    height: 85px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar-img-list img:hover {
+    padding: 3px;
+    box-shadow: 1px 1px 4px 4px #ff6b04;
 }
 
 .contacts-letter {
@@ -47,8 +80,32 @@
     color: #ffffff;
 }
 
+.title--menu {
+    cursor: pointer;
+}
+
+.title--menu::before {
+    content: '▼ ';
+    font-size: 80%;
+    color: #ff6804;
+}
+
+.knowledgeable-in-container.close .title--menu::before,
+.tech-skills-container.close .title--menu::before,
+.soft-skills-container.close .title--menu::before,
+.studying-container.close .title--menu::before {
+    content: '▶ ';
+}
+
 .skills-list {
     padding-left: 20px;
+}
+
+.knowledgeable-in-container.close .skills-list,
+.tech-skills-container.close .skills-list,
+.soft-skills-container.close .skills-list,
+.studying-container.close .skills-list {
+    display: none;
 }
 
 .skill-title {
@@ -57,6 +114,18 @@
     font-weight: 400;
     letter-spacing: 0.03em;
     color: #ffffff;
+}
+
+.skill-title:hover {
+    color: #ff6b04;
+    cursor: pointer;
+}
+
+.active {
+    display: inline-block;
+    width: 171px;
+    height: 30px;
+    border: none;
 }
 
 .skill-mark {
@@ -74,17 +143,17 @@
 }
 
 .tech-skills-container {
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 0 20px 0 40px;
 }
 
 
 .knowledgeable-in-container {
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 0 20px 0 40px;
 }
 
 .studying-container {
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 0 20px 0 40px;
 }
