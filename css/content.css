@@ -32,45 +32,84 @@
     color: #595959;
 }
 
+.project__title {
+    margin: 50px 0 0 55px;
+}
+
 .projecs-container {
-    margin: 50px 25px 0 55px;
+    margin: 50px auto;
+    position: relative;
+    width: 700px;
+    padding: 10px 40px;
+    border: 1px solid #CCC;
+    border-radius: 15px;
+    background-color: #1e2939;
+    box-shadow: 2px 2px 2px 2px #1e2939;
+}
+
+.arrow {
+    position: absolute;
+    top: 60px;
+    background: #1e2939;
+    border-radius: 15px;
+    border: 3px solid #1e2939;
+    font-size: 44px;
+    line-height: 44px;
+    color: #ff6b04;
+    display: block;
+}
+
+.arrow:hover {
+    background: #ff6b04;
+    color: #1e2939;
+    cursor: pointer;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.prev {
+    left: 11px;
+}
+  
+.next {
+    right: 11px;
+}
+
+.gallery {
+    overflow: hidden;
+    width: 570px;
+    margin: 0 auto;
+}
+
+.gallery ul {
+    height: 140px;
+    width: 1250px;
+    transition: margin-left 250ms;
+    text-align: center;
 }
 
 .projecs-container li {
-    margin: 0 0px 3px 15px;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    color: #000000;
+    margin: 0 80px;
+    list-style: none;
+    display: inline-block;
 }
 
 .projecs-container a {
-    margin-left: 5px;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
-    letter-spacing: 0.03em;
-    color: #595959;
-    text-decoration: none;
+    display: inline-block;
+    padding: 3px;
+    margin: 2px;
 }
 
-.projecs-container a:hover {
-    color: #1341B4;
-    border-bottom: 2px solid #1341B4;
+.projecs-container img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-.projecs-container span {
-    font-weight: 400;
-    color: #595959;
-}
-
-.projecs-container span b {
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    color: #000000;
+.projecs-container img:hover {
+    padding: 3px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .experience-container {
