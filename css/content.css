@@ -57,6 +57,7 @@
     line-height: 44px;
     color: #ff6b04;
     display: block;
+    outline: none;
 }
 
 .arrow:hover {
